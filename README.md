@@ -3,9 +3,7 @@ Visualization of Covid19 data sourced from Johns Hopkins and blended with variou
 
 ### Overview
 - Description: Visualizations on Covid19 data provided by Johns Hopkins University and demographic data pulled from various sources
-- Languages: Python, Shell
-- Technology: Pandas, Apache Parquet, Jupyter Notebook, RegEx, MatPlotLib
-- In Progress: Docker, Bokeh
+- Technology: Prophet, Machine Learning, Pandas, RegEx, MatPlotLib
 - Dashboards
     - State-Level Cases vs. Deaths over Time
         - Filters: state (req'd)
@@ -25,7 +23,7 @@ Visualization of Covid19 data sourced from Johns Hopkins and blended with variou
 ### Data Sources
 
 ##### Johns Hopkins University
-...
+[GitHub Repo](https://github.com/CSSEGISandData/COVID-19)
 
 ##### AWS Covid19 Data Lake
 ...
