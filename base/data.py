@@ -29,6 +29,8 @@ class Data:
         self.df = self.df.reset_index(drop=False)
         self.df = self.df.sort_index()
         self.df.columns = ['ds','y']
+        self.df.y = self.df.y.cummax()
+
         
     def load(self):
         None
